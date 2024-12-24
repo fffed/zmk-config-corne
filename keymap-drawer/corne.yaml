@@ -26,7 +26,7 @@ layers:
   - ;
   - {t: '''', h: Ctrl}
   - Shift
-  - Z
+  - {t: Z, h: LEFT ALT}
   - X
   - C
   - V
@@ -35,7 +35,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: LEFT ALT}
+  - {t: /, h: Sft+ LEFT CONTROL}
   - LEFT SHIFT
   - {t: LEFT GUI, h: system}
   - navigation
@@ -114,8 +114,8 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ','
+  - .
   - '['
   - ']'
   - '='
@@ -169,7 +169,7 @@ layers:
   - {type: held}
   - '&studio_unlock'
   - Gui+ ␣
-  - {t: ▽, type: trans}
+  - Gui+ ENTER
   - '&studio_unlock'
   - {t: ▽, type: trans}
   '4':
