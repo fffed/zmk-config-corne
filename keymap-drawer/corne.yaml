@@ -168,7 +168,7 @@ layers:
   - BT CLR ALL
   - {type: held}
   - '&studio_unlock'
-  - {t: ▽, type: trans}
+  - Gui+ ␣
   - {t: ▽, type: trans}
   - '&studio_unlock'
   - {t: ▽, type: trans}
