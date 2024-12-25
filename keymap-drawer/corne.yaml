@@ -42,7 +42,7 @@ layers:
   - ␣
   - ⏎
   - math
-  - BACKSPACE
+  - {t: BACKSPACE, s: DELETE}
   navigation:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
