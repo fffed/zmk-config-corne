@@ -23,9 +23,9 @@ layers:
   - J
   - K
   - L
-  - ;
+  - {t: ;, h: LEFT ALT}
   - {t: '''', h: Ctrl}
-  - Shift
+  - {t: Gui+ ␣, h: Shift}
   - {t: Z, h: LEFT ALT}
   - X
   - C
@@ -44,7 +44,7 @@ layers:
   - math
   - {t: BACKSPACE, s: DELETE}
   navigation:
-  - {t: ▽, type: trans}
+  - ↹
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Mouse ↑
@@ -57,7 +57,7 @@ layers:
   - {t: ▽, type: trans}
   - ⌦
   - {t: ▽, type: trans}
-  - ↹
+  - {t: ▽, type: trans}
   - Mouse ←
   - Mouse ↓
   - Mouse →
@@ -160,7 +160,7 @@ layers:
   - {t: ▽, type: trans}
   - PRINTSCREEN
   - {t: ▽, type: trans}
-  - PRINTSCREEN
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - POWER
