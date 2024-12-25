@@ -80,12 +80,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT GUI
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT GUI
+  - {t: ▽, type: trans}
   math:
   - '~'
   - '!'
@@ -112,8 +112,8 @@ layers:
   - '0'
   - '-'
   - {t: ▽, type: trans}
+  - BACKSPACE
   - '|'
-  - {t: ▽, type: trans}
   - ','
   - .
   - '['
@@ -158,12 +158,12 @@ layers:
   - BT 1
   - BT 2
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - PRINTSCREEN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - POWER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
   - {type: held}
