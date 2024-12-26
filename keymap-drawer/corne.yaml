@@ -41,7 +41,7 @@ layers:
   - {t: LEFT GUI, h: left}
   - ␣
   - ⏎
-  - {t: Gui+ ␣, h: right}
+  - {t: LEFT GUI, h: right}
   - {t: BACKSPACE, s: DELETE}
   right:
   - {t: ▽, type: trans}
