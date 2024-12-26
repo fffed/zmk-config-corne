@@ -130,6 +130,7 @@ layers:
   - both
   - {t: ▽, type: trans}
   both:
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -140,8 +141,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - F1
   - F2
   - F3
@@ -154,7 +154,7 @@ layers:
   - F10
   - F11
   - F12
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
   - BT 1
   - BT 2
   - BT 3
