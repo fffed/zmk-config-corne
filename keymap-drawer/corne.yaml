@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   base:
-  - {t: ↹, h: '`'}
+  - ↹
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '[', h: ']'}
-  - {t: ESCAPE, h: Ctrl}
+  - {t: Esc, s: '`'}
   - A
   - S
   - D
@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ;, h: LEFT ALT}
   - {t: '''', h: Ctrl}
-  - {t: Gui+ ␣, h: Shift}
+  - Shift
   - {t: Z, h: LEFT ALT}
   - X
   - C
@@ -35,32 +35,32 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: Sft+ LEFT CONTROL}
+  - /
   - LEFT SHIFT
-  - {t: LEFT GUI, h: system}
-  - navigation
+  - {t: DELETE, h: LEFT CONTROL}
+  - {t: LEFT GUI, h: left}
   - ␣
   - ⏎
-  - math
+  - {t: Gui+ ␣, h: right}
   - {t: BACKSPACE, s: DELETE}
-  navigation:
-  - ↹
+  right:
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Mouse ↑
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Home
-  - PAGE DOWN
-  - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ⌦
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Mouse ←
-  - Mouse ↓
-  - Mouse →
   - {t: ▽, type: trans}
   - ←
   - ↓
@@ -74,19 +74,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Home
+  - PAGE DOWN
+  - PAGE UP
   - End
-  - Scroll ↓
-  - Scroll ↑
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - both
   - LEFT GUI
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  math:
+  left:
   - '~'
   - '!'
   - '@'
@@ -124,12 +124,24 @@ layers:
   - '}'
   - +
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  system:
+  - {t: ▽, type: trans}
+  - both
+  - {t: ▽, type: trans}
+  both:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -143,18 +155,6 @@ layers:
   - F11
   - F12
   - {t: ▽, type: trans}
-  - Gui+ 1
-  - Gui+ 2
-  - Gui+ 3
-  - Gui+ 4
-  - Gui+ 5
-  - Gui+ 6
-  - Gui+ 7
-  - Gui+ 8
-  - Gui+ 9
-  - Gui+ 0
-  - BT CLR
-  - {t: ▽, type: trans}
   - BT 1
   - BT 2
   - {t: ▽, type: trans}
@@ -164,58 +164,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - POWER
-  - {t: ▽, type: trans}
+  - BT CLR
   - BT CLR ALL
-  - {type: held}
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
+  - {t: '&studio_unlock', type: held}
   - Gui+ ␣
   - Gui+ ENTER
-  - '&studio_unlock'
+  - {t: '&studio_unlock', type: held}
   - {t: ▽, type: trans}
   '4':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '5':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
