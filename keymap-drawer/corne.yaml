@@ -38,54 +38,11 @@ layers:
   - /
   - LEFT SHIFT
   - {t: DELETE, h: LEFT CONTROL}
-  - {t: LEFT GUI, h: left}
+  - {t: ↹, h: left}
   - ␣
   - ⏎
-  - {t: ↹, h: right}
+  - {t: LEFT GUI, h: right}
   - {t: BACKSPACE, s: DELETE}
-  right:
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ←
-  - ↓
-  - ↑
-  - →
-  - LEFT ALT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PRINTSCREEN
-  - Home
-  - PAGE DOWN
-  - PAGE UP
-  - End
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - both
-  - {t: LEFT GUI, h: sticky}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
   left:
   - '~'
   - '!'
@@ -127,21 +84,9 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - both
+  - {t: LEFT GUI, h: sticky}
   - {t: ▽, type: trans}
-  both:
-  - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&studio_unlock'
+  right:
   - F1
   - F2
   - F3
@@ -154,20 +99,32 @@ layers:
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
-  - BT 1
-  - BT 2
-  - BT 3
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - POWER
-  - BT CLR
-  - BT CLR ALL
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PRINTSCREEN
+  - ←
+  - ↓
+  - UP ARROW
+  - →
+  - LEFT ALT
+  - {t: LEFT GUI, h: sticky}
+  - BT CLR ALL
+  - BT CLR
+  - {t: ▽, type: trans}
+  - BT 3
+  - BT 2
+  - BT 1
+  - Home
+  - PAGE DOWN
+  - PAGE UP
+  - End
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
