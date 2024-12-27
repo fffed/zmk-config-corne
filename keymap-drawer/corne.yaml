@@ -66,15 +66,15 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '0'
   - KP EQUAL
+  - {t: Ctrl, h: sticky}
   - {t: ▽, type: trans}
   - \
   - '|'
   - {t: ▽, type: trans}
   - '{'
   - '}'
-  - {t: ▽, type: trans}
+  - '0'
   - '1'
   - '2'
   - '3'
