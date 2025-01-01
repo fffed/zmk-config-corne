@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - {t: ;, h: LEFT ALT}
-  - {t: '''', h: Ctrl}
+  - {t: '''', h: LEFT GUI}
   - Shift
   - {t: Z, h: LEFT ALT}
   - X
@@ -42,7 +42,7 @@ layers:
   - ␣
   - ⏎
   - {t: LEFT GUI, h: right}
-  - {t: BACKSPACE, s: DELETE}
+  - BACKSPACE
   left:
   - '~'
   - '!'
@@ -71,7 +71,7 @@ layers:
   - {t: ▽, type: trans}
   - \
   - '|'
-  - {t: ▽, type: trans}
+  - _
   - '{'
   - '}'
   - '0'
@@ -129,3 +129,10 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+combos:
+- p: [34, 33]
+  k: AMPERSAND
+  l: [base]
+- p: [22, 21]
+  k: '@'
+  l: [base]
