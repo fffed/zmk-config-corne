@@ -26,9 +26,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <39 40 41 30 31 32 33 35 34 23 22 21 20 19 18 7 6 8 10 9 11>;
+            quick-tap-ms = <0>;
         };
 
         hmr: homewrow_mods_right {
@@ -37,12 +38,13 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <0 1 2 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 3>;
+            quick-tap-ms = <0>;
         };
 
-        tap_preferred_hold_mod: tap_preferred_hold_mod {
+        tap_hold: tap_preferred_hold_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "TAP_PREFERRED_HOLD_MOD";
             bindings = <&kp>, <&kp>;
@@ -52,7 +54,7 @@
             tapping-term-ms = <200>;
         };
 
-        layer_toggle_hold: layer_toggle_hold {
+        lth: layer_toggle_hold {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TOGGLE_HOLD";
             bindings = <&mo>, <&tog>;
@@ -61,7 +63,7 @@
             tapping-term-ms = <200>;
         };
 
-        layer_mod_stick: layer_mod_stick {
+        lms: layer_mod_stick {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_MOD_STICK";
             bindings = <&mt>, <&sk>;
@@ -71,7 +73,7 @@
             tapping-term-ms = <200>;
         };
 
-        tap_hold_stick: tap_hold_stick {
+        ths: tap_hold_stick {
             compatible = "zmk,behavior-hold-tap";
             label = "TAP_HOLD_STICK";
             bindings = <&kp>, <&sk>;
@@ -79,6 +81,80 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
+        };
+
+        hml_b: homerow_mods_balanced_left {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_BALANCED_LEFT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <39 40 41 30 31 32 33 35 34 23 22 21 20 19 18 7 6 8 10 9 11>;
+            quick-tap-ms = <0>;
+        };
+
+        hmr_b: homerow_mods_balanced_right {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_BALANCED_RIGHT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <0 1 2 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 3>;
+            quick-tap-ms = <0>;
+        };
+
+        hml_i: homerow_mods_interrupted_left {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_INTERRUPTED_LEFT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <100>;
+            flavor = "tap-unless-interrupted";
+            hold-trigger-key-positions = <39 40 41 30 31 32 33 35 34 23 22 21 20 19 18 7 6 8 10 9 11>;
+            quick-tap-ms = <200>;
+        };
+
+        hmr_i: homerow_mods_interrupted_right {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_INTERRUPTED_RIGHT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <100>;
+            flavor = "tap-unless-interrupted";
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+            quick-tap-ms = <200>;
+        };
+
+        hml_urob: homerow_mods_urob_left {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_UROB_LEFT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <39 40 41 30 31 32 33 35 34 23 22 21 20 19 18 7 6 8 10 9 11>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+        };
+
+        hmr_urob: homerow_mods_urob_right {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_UROB_RIGHT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <39 40 41 30 31 32 33 35 34 23 22 21 20 19 18 7 6 8 10 9 11>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
         };
     };
 
@@ -127,10 +203,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB                                      &kp Q           &kp W  &kp E                    &kp R      &kp T        &kp Y    &kp U           &kp I          &kp O    &kp P                                   &mt RIGHT_BRACKET LEFT_BRACKET
-&tap_preferred_hold_mod LEFT_CONTROL ESCAPE  &kp A           &kp S  &kp D                    &kp F      &kp G        &kp H    &kp J           &kp K          &kp L    &kp SEMI                                &tap_preferred_hold_mod LEFT_CONTROL SQT
-&mt LSHFT LEFT_PARENTHESIS                   &mt LEFT_ALT Z  &kp X  &kp C                    &kp V      &kp B        &kp N    &kp M           &kp COMMA      &kp DOT  &tap_preferred_hold_mod LEFT_ALT SLASH  &mt LEFT_SHIFT RIGHT_PARENTHESIS
-                                                                    &mt LEFT_CONTROL DELETE  &lt 1 TAB  &kp SPACE    &kp RET  &lt 2 LEFT_GUI  &kp BACKSPACE
+&kp TAB                        &kp Q           &kp W  &kp E                    &kp R      &kp T        &kp Y    &kp U           &kp I          &kp O    &kp P                     &mt RIGHT_BRACKET LEFT_BRACKET
+&tap_hold LEFT_CONTROL ESCAPE  &kp A           &kp S  &kp D                    &kp F      &kp G        &kp H    &kp J           &kp K          &kp L    &kp SEMI                  &tap_hold LEFT_CONTROL SQT
+&mt LSHFT LEFT_PARENTHESIS     &mt LEFT_ALT Z  &kp X  &kp C                    &kp V      &kp B        &kp N    &kp M           &kp COMMA      &kp DOT  &tap_hold LEFT_ALT SLASH  &mt LEFT_SHIFT RIGHT_PARENTHESIS
+                                                      &mt LEFT_CONTROL DELETE  &lt 1 TAB  &kp SPACE    &kp RET  &lt 2 LEFT_GUI  &kp BACKSPACE
             >;
         };
 
