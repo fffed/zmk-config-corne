@@ -109,7 +109,7 @@ layers:
   - ↓
   - ↑
   - →
-  - LEFT ALT
+  - '&alt_tab'
   - {t: LEFT GUI, h: sticky}
   - BT CLR ALL
   - BT CLR
