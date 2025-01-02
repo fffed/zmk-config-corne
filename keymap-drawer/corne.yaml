@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '[', h: ']'}
-  - {t: Esc, s: '`'}
+  - {t: ESCAPE, h: LEFT CONTROL}
   - A
   - S
   - D
@@ -24,8 +24,8 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: LEFT GUI}
-  - Shift
+  - {t: '''', h: LEFT CONTROL}
+  - {t: (, h: Shift}
   - {t: Z, h: LEFT ALT}
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - {t: /, h: LEFT ALT}
-  - LEFT SHIFT
+  - {t: ), h: LEFT SHIFT}
   - {t: DELETE, h: LEFT CONTROL}
   - {t: ↹, h: left}
   - ␣
