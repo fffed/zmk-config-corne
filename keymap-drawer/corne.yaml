@@ -14,16 +14,16 @@ layers:
   - P
   - {t: '[', h: ']'}
   - {t: ESCAPE, h: LEFT CONTROL}
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT SHIFT}
+  - {t: F, h: LEFT CONTROL}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: LEFT CONTROL}
+  - {t: K, h: LEFT SHIFT}
+  - {t: L, h: LEFT ALT}
+  - {t: ;, h: LEFT GUI}
   - {t: '''', h: LEFT CONTROL}
   - {t: (, h: Shift}
   - {t: Z, h: LEFT ALT}
@@ -57,16 +57,16 @@ layers:
   - KP MINUS
   - +
   - Caps Word
-  - ^
-  - AMPS
-  - '*'
-  - (
+  - {t: ^, h: LEFT GUI}
+  - {t: AMPS, h: LEFT ALT}
+  - {t: '*', h: LEFT SHIFT}
+  - {t: (, h: LEFT CONTROL}
   - )
   - KP MULTIPLY
-  - '4'
-  - '5'
-  - '6'
-  - KP EQUAL
+  - {t: '4', h: LEFT CONTROL}
+  - {t: '5', h: LEFT SHIFT}
+  - {t: '6', h: LEFT ALT}
+  - {t: '=', h: LEFT GUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - \
@@ -100,10 +100,10 @@ layers:
   - F11
   - F12
   - '&studio_unlock'
-  - POWER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
+  - LEFT GUI
+  - LEFT SHIFT
+  - LEFT CONTROL
   - PRINTSCREEN
   - LEFT ARROW
   - DOWN ARROW
@@ -122,7 +122,7 @@ layers:
   - PAGE UP
   - End
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - POWER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
