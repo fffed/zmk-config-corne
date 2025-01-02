@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: LEFT ALT}
+  - ;
   - {t: '''', h: LEFT GUI}
   - Shift
   - {t: Z, h: LEFT ALT}
@@ -35,7 +35,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: LEFT ALT}
   - LEFT SHIFT
   - {t: DELETE, h: LEFT CONTROL}
   - {t: ↹, h: left}
