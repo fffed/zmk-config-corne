@@ -63,11 +63,11 @@ layers:
   - {t: (, h: LEFT CONTROL}
   - )
   - KP MULTIPLY
-  - {t: '4', h: LEFT CONTROL}
-  - {t: '5', h: LEFT SHIFT}
-  - {t: '6', h: LEFT ALT}
-  - {t: '=', h: LEFT GUI}
-  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - {t: Sft+ LEFT CONTROL, h: sticky}
   - {t: ▽, type: trans}
   - \
   - '|'
@@ -79,7 +79,7 @@ layers:
   - '2'
   - '3'
   - KP DOT
-  - {t: ▽, type: trans}
+  - {t: Sft+ LEFT ALT, h: sticky}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}

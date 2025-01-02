@@ -218,10 +218,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE   &kp EXCL             &kp AT              &kp HASH                  &kp DLLR                            &kp PRCNT                &kp KP_DIVIDE    &kp N7                      &kp N8                    &kp N9                  &kp KP_MINUS         &kp PLUS
-&caps_word  &hml LEFT_GUI CARET  &hml LEFT_ALT AMPS  &hml LEFT_SHIFT ASTERISK  &hml LEFT_CONTROL LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp KP_MULTIPLY  &hmr LEFT_CONTROL NUMBER_4  &hmr LEFT_SHIFT NUMBER_5  &hmr LEFT_ALT NUMBER_6  &hmr LEFT_GUI EQUAL  &trans
-&trans      &kp BACKSLASH        &kp PIPE            &kp UNDERSCORE            &kp LEFT_BRACE                      &kp RIGHT_BRACE          &kp N0           &kp N1                      &kp N2                    &kp N3                  &kp KP_DOT           &trans
-                                                     &trans                    &trans                              &trans                   &trans           &sk LEFT_GUI                &trans
+&kp TILDE   &kp EXCL             &kp AT              &kp HASH                  &kp DLLR                            &kp PRCNT                &kp KP_DIVIDE    &kp N7        &kp N8        &kp N9        &kp KP_MINUS  &kp PLUS
+&caps_word  &hml LEFT_GUI CARET  &hml LEFT_ALT AMPS  &hml LEFT_SHIFT ASTERISK  &hml LEFT_CONTROL LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &sk LS(LEFT_CONTROL)
+&trans      &kp BACKSLASH        &kp PIPE            &kp UNDERSCORE            &kp LEFT_BRACE                      &kp RIGHT_BRACE          &kp N0           &kp N1        &kp N2        &kp N3        &kp KP_DOT    &sk LS(LEFT_ALT)
+                                                     &trans                    &trans                              &trans                   &trans           &sk LEFT_GUI  &trans
             >;
         };
 
