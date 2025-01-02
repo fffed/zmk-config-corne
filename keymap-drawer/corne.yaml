@@ -2,7 +2,7 @@ layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   base:
   - ↹
-  - Q
+  - {t: Q, h: '`'}
   - W
   - E
   - R
@@ -14,15 +14,15 @@ layers:
   - P
   - {t: '[', h: ']'}
   - {t: ESCAPE, h: LEFT CONTROL}
-  - {t: A, h: LEFT GUI}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT SHIFT}
-  - {t: F, h: LEFT CONTROL}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: LEFT CONTROL}
-  - {t: K, h: LEFT SHIFT}
-  - {t: L, h: LEFT ALT}
+  - J
+  - K
+  - L
   - {t: ;, h: LEFT GUI}
   - {t: '''', h: LEFT CONTROL}
   - {t: (, h: Shift}
