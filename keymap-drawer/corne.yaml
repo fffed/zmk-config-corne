@@ -67,7 +67,7 @@ layers:
   - '5'
   - '6'
   - KP EQUAL
-  - {t: Ctrl, h: sticky}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - \
   - '|'
@@ -105,12 +105,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PRINTSCREEN
-  - ←
-  - ↓
-  - ↑
-  - →
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
   - '&alt_tab'
-  - {t: LEFT GUI, h: sticky}
+  - LEFT GUI
   - BT CLR ALL
   - BT CLR
   - {t: ▽, type: trans}
