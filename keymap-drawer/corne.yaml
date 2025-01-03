@@ -57,23 +57,23 @@ layers:
   - KP MINUS
   - +
   - Caps Word
-  - {t: ^, h: LEFT GUI}
-  - {t: AMPS, h: LEFT ALT}
-  - {t: '*', h: LEFT SHIFT}
-  - {t: (, h: LEFT CONTROL}
-  - )
+  - {t: \, h: LEFT GUI}
+  - {t: '|', h: LEFT ALT}
+  - {t: ^, h: LEFT SHIFT}
+  - {t: AMPS, h: LEFT CONTROL}
+  - _
   - KP MULTIPLY
   - '4'
   - '5'
   - '6'
   - '='
   - {t: Sft+ LEFT CONTROL, h: sticky}
-  - {t: ▽, type: trans}
-  - \
-  - '|'
-  - _
+  - '['
+  - ']'
   - '{'
   - '}'
+  - (
+  - )
   - '0'
   - '1'
   - '2'
