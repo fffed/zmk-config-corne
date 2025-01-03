@@ -37,11 +37,11 @@ layers:
   - .
   - {t: /, h: LEFT ALT}
   - {t: ), h: LEFT SHIFT}
-  - {t: DELETE, h: LEFT CONTROL}
+  - {t: LEFT CONTROL, h: DELETE}
   - {t: ↹, h: left}
   - ␣
   - ⏎
-  - {t: LEFT GUI, h: right}
+  - {t: ESCAPE, h: right}
   - BACKSPACE
   left:
   - '~'
@@ -100,8 +100,8 @@ layers:
   - F11
   - F12
   - '&studio_unlock'
-  - LEFT ALT
   - LEFT GUI
+  - LEFT ALT
   - LEFT SHIFT
   - LEFT CONTROL
   - PRINTSCREEN
@@ -109,7 +109,7 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - '&alt_tab'
+  - {t: ▽, type: trans}
   - LEFT GUI
   - BT CLR ALL
   - BT CLR
