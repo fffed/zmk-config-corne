@@ -41,7 +41,7 @@ layers:
   - {t: ↹, h: left}
   - ␣
   - ⏎
-  - {t: ESCAPE, h: right}
+  - {t: ␣, h: right}
   - BACKSPACE
   left:
   - '~'
