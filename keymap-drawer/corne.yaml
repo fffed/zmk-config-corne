@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - $$mdi:backspace-outline$$
+  - {t: '[', h: ']'}
   - {t: ESCAPE, h: LEFT GUI}
   - A
   - S
