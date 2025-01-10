@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  BAS:
+  base:
   - ↹
   - {t: Q, h: '`'}
   - W
@@ -132,10 +132,10 @@ layers:
 combos:
 - p: [34, 33]
   k: AMPERSAND
-  l: [BAS]
+  l: [base]
 - p: [22, 21]
   k: '@'
-  l: [BAS]
+  l: [base]
 - p: [8, 9, 7]
   k: Home
 - p: [31, 32, 33]
