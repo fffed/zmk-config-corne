@@ -1,8 +1,49 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
-    Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, RAI, '$$mdi:apple-keyboard-option$$']
-  LOW:
+  BAS:
+  - ↹
+  - {t: Q, h: '`'}
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - $$mdi:backspace-outline$$
+  - {t: ESCAPE, h: LEFT GUI}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - {t: (, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Z, h: LEFT ALT}
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: ), h: LEFT SHIFT}
+  - {t: ⌦, h: LEFT CONTROL}
+  - {t: ↹, h: left}
+  - ␣
+  - ⏎
+  - {t: ␣, h: right}
+  - {t: BACKSPACE, h: LEFT ALT}
+  left:
   - '~'
   - '!'
   - '@'
@@ -16,10 +57,10 @@ layers:
   - '-'
   - +
   - Caps Word
-  - \
-  - '|'
-  - ^
-  - AMPERSAND
+  - {t: \, h: LEFT GUI}
+  - {t: '|', h: LEFT ALT}
+  - {t: ^, h: LEFT SHIFT}
+  - {t: AMPERSAND, h: LEFT CONTROL}
   - _
   - '*'
   - '4'
@@ -45,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  RAI:
+  right:
   - F1
   - F2
   - F3
@@ -88,3 +129,14 @@ layers:
   - BT CLR
   - {type: held}
   - BT CLR ALL
+combos:
+- p: [34, 33]
+  k: AMPERSAND
+  l: [BAS]
+- p: [22, 21]
+  k: '@'
+  l: [BAS]
+- p: [8, 9, 7]
+  k: Home
+- p: [31, 32, 33]
+  k: End
