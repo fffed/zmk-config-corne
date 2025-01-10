@@ -10,6 +10,17 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        backspace_delete: backspace_delete {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BACKSPACE_DELETE";
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
