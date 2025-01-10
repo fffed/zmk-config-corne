@@ -13,510 +13,54 @@
     behaviors {
         │    │
 
-        backspace_delete: backspace_delete {
-            │    │
-
-            compatible = "zmk,behavior-mod-morph";
-
-            │    │
-
-            label = "BACKSPACE_DELETE";
-
-            │    │
-
-            bindings = <&kp BACKSPACE>, <&kp DELETE>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <0>;
-
-            │    │
-
-            mods = <(MOD_LSFT)>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        hml: homewrow_mods_left {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "HOMEROW_MODS_LEFT_HAND";
-
-            │    │
-
-            bindings = <&kp>, <&kp>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            tapping-term-ms = <150>;
-
-            │    │
-
-            flavor = "tap-preferred";
-
-            │    │
-
-            hold-trigger-key-positions = <
-39 40 41 30 31 32 33 35 34 23 22 21 20 19 18 7 6 8 10 9 1↴ │    │
-                                                                                                …
-            >;
-
-            │    │
-
-            quick-tap-ms = <0>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        hmr: homewrow_mods_right {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "HOMEROW_MODS_RIGHT_HAND";
-
-            │    │
-
-            bindings = <&kp>, <&kp>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            tapping-term-ms = <150>;
-
-            │    │
-
-            flavor = "tap-preferred";
-
-            │    │
-
-            hold-trigger-key-positions = <0 1 2 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 3>;
-
-            │    │
-
-            quick-tap-ms = <0>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        tap_hold: tap_preferred_hold_mod {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "TAP_PREFERRED_HOLD_MOD";
-
-            │    │
-
-            bindings = <&kp>, <&kp>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            flavor = "tap-preferred";
-
-            │    │
-
-            tapping-term-ms = <200>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        lth: layer_toggle_hold {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "LAYER_TOGGLE_HOLD";
-
-            │    │
-
-            bindings = <&mo>, <&tog>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            tapping-term-ms = <200>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        lms: layer_mod_stick {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "LAYER_MOD_STICK";
-
-            │    │
-
-            bindings = <&mt>, <&sk>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            flavor = "tap-preferred";
-
-            │    │
-
-            tapping-term-ms = <200>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        ths: tap_hold_stick {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "TAP_HOLD_STICK";
-
-            │    │
-
-            bindings = <&kp>, <&sk>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            flavor = "hold-preferred";
-
-            │    │
-
-            tapping-term-ms = <200>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        hml_b: homerow_mods_balanced_left {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "HOMEROW_MODS_BALANCED_LEFT";
-
-            │    │
-
-            bindings = <&kp>, <&kp>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            tapping-term-ms = <200>;
-
-            │    │
-
-            flavor = "balanced";
-
-            │    │
-
-            hold-trigger-key-positions = <
-39 40 41 30 31 32 33 35 34 23 22 21 20 19 18 7 6 8 10 9 1↴ │    │
-                                                                                                …
-            >;
-
-            │    │
-
-            quick-tap-ms = <0>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        hmr_b: homerow_mods_balanced_right {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "HOMEROW_MODS_BALANCED_RIGHT";
-
-            │    │
-
-            bindings = <&kp>, <&kp>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            tapping-term-ms = <200>;
-
-            │    │
-
-            flavor = "balanced";
-
-            │    │
-
-            hold-trigger-key-positions = <0 1 2 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 3>;
-
-            │    │
-
-            quick-tap-ms = <0>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        hml_i: homerow_mods_interrupted_left {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "HOMEROW_MODS_INTERRUPTED_LEFT";
-
-            │    │
-
-            bindings = <&kp>, <&kp>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            tapping-term-ms = <100>;
-
-            │    │
-
-            flavor = "tap-unless-interrupted";
-
-            │    │
-
-            hold-trigger-key-positions = <
-39 40 41 30 31 32 33 35 34 23 22 21 20 19 18 7 6 8 10 9 1↴ │    │
-                                                                                                …
-            >;
-
-            │    │
-
-            quick-tap-ms = <200>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        hmr_i: homerow_mods_interrupted_right {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "HOMEROW_MODS_INTERRUPTED_RIGHT";
-
-            │    │
-
-            bindings = <&kp>, <&kp>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            tapping-term-ms = <100>;
-
-            │    │
-
-            flavor = "tap-unless-interrupted";
-
-            │    │
-
-            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
-
-            │    │
-
-            quick-tap-ms = <200>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        hml_urob: homerow_mods_urob_left {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "HOMEROW_MODS_UROB_LEFT";
-
-            │    │
-
-            bindings = <&kp>, <&kp>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            tapping-term-ms = <280>;
-
-            │    │
-
-            flavor = "balanced";
-
-            │    │
-
-            hold-trigger-key-positions = <
-39 40 41 30 31 32 33 35 34 23 22 21 20 19 18 7 6 8 10 9 1↴ │    │
-                                                                                                …
-            >;
-
-            │    │
-
-            quick-tap-ms = <175>;
-
-            │    │
-
-            require-prior-idle-ms = <150>;
-
-            │    │
-        };
 
         │    │
                                                                                                      │    │
 
-        hmr_urob: homerow_mods_urob_right {
-            │    │
-
-            compatible = "zmk,behavior-hold-tap";
-
-            │    │
-
-            label = "HOMEROW_MODS_UROB_RIGHT";
-
-            │    │
-
-            bindings = <&kp>, <&kp>;
-
-            │    │
-                                                                                                     │    │
-            #
-
-            binding-cells = <2>;
-
-            │    │
-
-            tapping-term-ms = <280>;
-
-            │    │
-
-            flavor = "balanced";
-
-            │    │
-
-            hold-trigger-key-positions = <
-39 40 41 30 31 32 33 35 34 23 22 21 20 19 18 7 6 8 10 9 1↴ │    │
-                                                                                                …
-            >;
-
-            │    │
-
-            quick-tap-ms = <175>;
-
-            │    │
-
-            require-prior-idle-ms = <150>;
-
-            │    │
-        };
 
         │    │
     };
@@ -679,10 +223,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB                    &tap_hold GRAVE Q     &kp W  &kp E                          &kp R      &kp T        &kp Y    &kp U        &kp I                     &kp O    &kp P     &tap_hold RIGHT_BRACKET LEFT_BRACKET
-&tap_hold LEFT_GUI ESCAPE  &kp A                 &kp S  &kp D                          &kp F      &kp G        &kp H    &kp J        &kp K                     &kp L    &kp SEMI  &kp SQT
-&kp LSHFT                  &tap_hold LEFT_ALT Z  &kp X  &kp C                          &kp V      &kp B        &kp N    &kp M        &kp COMMA                 &kp DOT  &kp FSLH  &kp LEFT_SHIFT
-                                                        &tap_hold LEFT_CONTROL DELETE  &lt 1 TAB  &kp SPACE    &kp RET  &lt 2 SPACE  &tap_hold RALT BACKSPACE
+&kp TAB    &none  &kp W  &kp E  &kp R      &kp T        &kp Y    &kp U        &kp I      &kp O    &kp P     &none
+&none      &kp A  &kp S  &kp D  &kp F      &kp G        &kp H    &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &none  &kp X  &kp C  &kp V      &kp B        &kp N    &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_SHIFT
+                         &none  &lt 1 TAB  &kp SPACE    &kp RET  &lt 2 SPACE  &none
             >;
         };
 
@@ -696,10 +240,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE         &kp EXCLAMATION          &kp AT_SIGN         &kp HASH               &kp DOLLAR                   &kp PERCENT              &kp FSLH  &kp N7        &kp N8  &kp N9  &kp MINUS   &kp PLUS
-&caps_word        &hml LEFT_GUI BACKSLASH  &hml LEFT_ALT PIPE  &hml LEFT_SHIFT CARET  &hml LEFT_CONTROL AMPERSAND  &kp UNDERSCORE           &kp STAR  &kp N4        &kp N5  &kp N6  &kp EQUAL   &sk LS(LEFT_CONTROL)
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET        &kp LEFT_BRACE      &kp RIGHT_BRACE        &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS    &kp N0    &kp N1        &kp N2  &kp N3  &kp KP_DOT  &sk LS(LEFT_ALT)
-                                                               &trans                 &trans                       &trans                   &trans    &sk LEFT_GUI  &trans
+&kp TILDE         &kp EXCLAMATION    &kp AT_SIGN     &kp HASH         &kp DOLLAR            &kp PERCENT              &kp FSLH  &kp N7        &kp N8  &kp N9  &kp MINUS   &kp PLUS
+&caps_word        &none              &none           &none            &none                 &kp UNDERSCORE           &kp STAR  &kp N4        &kp N5  &kp N6  &kp EQUAL   &sk LS(LEFT_CONTROL)
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp N0    &kp N1        &kp N2  &kp N3  &kp KP_DOT  &sk LS(LEFT_ALT)
+                                                     &trans           &trans                &trans                   &trans    &sk LEFT_GUI  &trans
             >;
         };
 
