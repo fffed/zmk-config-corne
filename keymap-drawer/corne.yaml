@@ -99,7 +99,7 @@ layers:
   - F10
   - F11
   - F12
-  - '&studio_unlock'
+  - '&alt_tab'
   - {t: '$$mdi:apple-keyboard-command$$', h: sticky}
   - {t: '$$mdi:apple-keyboard-option$$', h: sticky}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
@@ -111,7 +111,7 @@ layers:
   - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT 4
@@ -144,3 +144,6 @@ combos:
   k: BACKSPACE
 - p: [1, 2]
   k: DELETE
+- p: [32, 33]
+  k: ^
+  l: [base]
