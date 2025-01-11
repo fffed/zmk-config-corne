@@ -136,6 +136,9 @@ combos:
 - p: [22, 21]
   k: '@'
   l: [base]
+- p: [32, 33]
+  k: ^
+  l: [base]
 - p: [8, 9, 7]
   k: Home
 - p: [31, 32, 33]
@@ -144,6 +147,3 @@ combos:
   k: BACKSPACE
 - p: [1, 2]
   k: DELETE
-- p: [32, 33]
-  k: ^
-  l: [base]

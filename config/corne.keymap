@@ -152,6 +152,12 @@
             layers = <0>;
         };
 
+        ru_colon {
+            bindings = <&kp CARET>;
+            key-positions = <32 33>;
+            layers = <0>;
+        };
+
         home {
             bindings = <&kp HOME>;
             key-positions = <8 9 7>;
@@ -170,12 +176,6 @@
         delete {
             bindings = <&kp DELETE>;
             key-positions = <1 2>;
-        };
-
-        ru_colon {
-            bindings = <&kp CARET>;
-            key-positions = <32 33>;
-            layers = <0>;
         };
     };
 
