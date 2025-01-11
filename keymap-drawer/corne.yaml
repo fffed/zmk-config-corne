@@ -140,3 +140,7 @@ combos:
   k: Home
 - p: [31, 32, 33]
   k: End
+- p: [9, 10]
+  k: BACKSPACE
+- p: [1, 2]
+  k: DELETE

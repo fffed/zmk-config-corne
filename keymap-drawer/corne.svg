@@ -432,6 +432,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
 <text x="644" y="145" class="combo tap">End</text>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
+<text x="728" y="42" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="98" y="29" width="28" height="26" class="combo"/>
+<text x="112" y="42" class="combo tap">DELETE</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 331)" class="layer-left">
@@ -636,6 +644,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
 <text x="644" y="145" class="combo tap">End</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
+<text x="728" y="42" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="29" width="28" height="26" class="combo"/>
+<text x="112" y="42" class="combo tap">DELETE</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 661)" class="layer-right">
@@ -837,6 +853,14 @@ rect.held, rect.combo.held {
 <path d="M644,145 l37,2" class="combo"/>
 <rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
 <text x="644" y="145" class="combo tap">End</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
+<text x="728" y="42" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="29" width="28" height="26" class="combo"/>
+<text x="112" y="42" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>

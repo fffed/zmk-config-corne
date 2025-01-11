@@ -161,6 +161,16 @@
             bindings = <&kp END>;
             key-positions = <31 32 33>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <9 10>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <1 2>;
+        };
     };
 
     macros {
