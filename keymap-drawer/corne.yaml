@@ -84,8 +84,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Sft+LEFT CONTROL, h: sticky}
+  - {t: Sft+LEFT ALT, h: sticky}
   right:
   - F1
   - F2
