@@ -135,6 +135,13 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
         };
+
+        td_q_grave: tap_dance_q_grave {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_Q_GRAVE";
+            #binding-cells = <0>;
+            bindings = <&kp Q>, <&kp GRAVE>;
+        };
     };
 
     combos {
