@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '[', h: ']'}
-  - {t: ESCAPE, h: LEFT GUI}
+  - {t: gui, h: sticky}
   - A
   - S
   - D
@@ -129,6 +129,49 @@ layers:
   - BT CLR
   - {type: held}
   - BT CLR ALL
+  gui:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+7
+  - Gui+8
+  - Gui+9
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+4
+  - Gui+5
+  - Gui+6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+0
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+␣
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [34, 33]
   k: AMPERSAND
@@ -147,3 +190,8 @@ combos:
   k: BACKSPACE
 - p: [1, 2]
   k: DELETE
+- p: [19, 20, 21]
+  k: ESCAPE
+  draw_separate: true
+- p: [20, 21, 22]
+  k: ENTER

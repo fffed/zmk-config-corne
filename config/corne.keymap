@@ -140,42 +140,52 @@
     combos {
         compatible = "zmk,combos";
 
-        ru_question {
+        combo_ru_question {
             bindings = <&kp AMPERSAND>;
             key-positions = <34 33>;
             layers = <0>;
         };
 
-        ru_quotes {
+        combo_ru_quotes {
             bindings = <&kp AT>;
             key-positions = <22 21>;
             layers = <0>;
         };
 
-        ru_colon {
+        combo_ru_colon {
             bindings = <&kp CARET>;
             key-positions = <32 33>;
             layers = <0>;
         };
 
-        home {
+        combo_home {
             bindings = <&kp HOME>;
             key-positions = <8 9 7>;
         };
 
-        end {
+        combo_end {
             bindings = <&kp END>;
             key-positions = <31 32 33>;
         };
 
-        backspace {
+        combo_backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <9 10>;
         };
 
-        delete {
+        combo_delete {
             bindings = <&kp DELETE>;
             key-positions = <1 2>;
+        };
+
+        combo_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20 21>;
+        };
+
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <20 21 22>;
         };
     };
 
@@ -241,7 +251,7 @@
 
             bindings = <
 &kp TAB                     &tap_hold GRAVE Q     &kp W  &kp E                 &kp R      &kp T        &kp Y    &kp U        &kp I                         &kp O    &kp P     &tap_hold RIGHT_BRACKET LEFT_BRACKET
-&tap_hold LEFT_GUI ESCAPE   &kp A                 &kp S  &kp D                 &kp F      &kp G        &kp H    &kp J        &kp K                         &kp L    &kp SEMI  &kp SQT
+&sl 3                       &kp A                 &kp S  &kp D                 &kp F      &kp G        &kp H    &kp J        &kp K                         &kp L    &kp SEMI  &kp SQT
 &mt LSHFT LEFT_PARENTHESIS  &tap_hold LEFT_ALT Z  &kp X  &kp C                 &kp V      &kp B        &kp N    &kp M        &kp COMMA                     &kp DOT  &kp FSLH  &mt LEFT_SHIFT RIGHT_PARENTHESIS
                                                          &mt LEFT_CONTROL DEL  &lt 1 TAB  &kp SPACE    &kp RET  &lt 2 SPACE  &tap_hold LEFT_ALT BACKSPACE
             >;
@@ -278,6 +288,15 @@
 &alt_tab        &sk LGUI  &sk LALT  &sk LSHFT     &sk LCTRL     &kp PRINTSCREEN    &kp LEFT    &kp DOWN       &kp UP          &kp RIGHT  &trans   &trans
 &studio_unlock  &trans    &trans    &bt BT_SEL 3  &bt BT_SEL 1  &bt BT_SEL 0       &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP     &kp END    &trans   &kp K_POWER
                                     &trans        &trans        &trans             &bt BT_CLR  &none          &bt BT_CLR_ALL
+            >;
+        };
+
+        gui {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans           &trans      &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &trans      &kp LG(N4)  &kp LG(N5)  &kp LG(N6)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &kp LG(N0)  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &trans  &trans
+                        &trans  &trans  &kp LG(SPACE)    &trans      &trans      &trans
             >;
         };
     };
