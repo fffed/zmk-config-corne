@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   base:
-  - ↹
+  - '&alt_tab'
   - {t: Q, h: '`'}
   - W
   - E
@@ -26,7 +26,7 @@ layers:
   - ;
   - ''''
   - {t: (, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Z, h: LEFT ALT}
+  - Z
   - X
   - C
   - V
@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - {t: ), h: LEFT SHIFT}
-  - {t: ⌦, h: LEFT CONTROL}
+  - {t: LEFT CONTROL, h: sticky}
   - {t: ↹, h: left}
   - ␣
   - ⏎
