@@ -2,7 +2,7 @@ layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   base:
   - '&alt_tab'
-  - {t: Q, h: '`'}
+  - Q
   - W
   - E
   - R
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '[', h: ']'}
-  - {t: ESCAPE, h: LEFT GUI}
+  - '`'
   - A
   - S
   - D
@@ -41,7 +41,7 @@ layers:
   - {t: ↹, h: left}
   - ␣
   - ⏎
-  - {t: ␣, h: right}
+  - {t: ESCAPE, h: right}
   - BACKSPACE
   left:
   - '~'
