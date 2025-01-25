@@ -2,7 +2,7 @@ layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   base:
   - '`'
-  - Q
+  - '&td_q_grave'
   - W
   - E
   - R
@@ -41,7 +41,7 @@ layers:
   - {t: ↹, h: left}
   - ␣
   - ⏎
-  - {t: ESCAPE, h: right}
+  - {t: DELETE, h: right}
   - BACKSPACE
   left:
   - '~'
