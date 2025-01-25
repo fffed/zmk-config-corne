@@ -215,3 +215,7 @@ combos:
   l: [base]
 - p: [15, 16]
   k: '&key_repeat'
+- p: [12, 23]
+  k: LEFT GUI
+- p: [24, 35]
+  k: Gui+␣
