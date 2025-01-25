@@ -2,7 +2,7 @@ layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   base:
   - '`'
-  - '&td_q_grave'
+  - Q
   - W
   - E
   - R
