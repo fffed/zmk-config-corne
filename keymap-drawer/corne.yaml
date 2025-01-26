@@ -41,10 +41,10 @@ layers:
   - {t: ↹, h: left}
   - ␣
   - ⏎
-  - {t: DELETE, h: right}
+  - {t: _, h: right}
   - BACKSPACE
   left:
-  - DELETE
+  - ESCAPE
   - '!'
   - '@'
   - '#'
@@ -56,12 +56,12 @@ layers:
   - '9'
   - '-'
   - +
-  - Caps Word
+  - DELETE
   - {t: LEFT GUI, h: sticky}
   - {t: LEFT ALT, h: sticky}
-  - {t: ^, h: LEFT SHIFT}
-  - {t: AMPERSAND, h: LEFT CONTROL}
-  - _
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: LEFT CONTROL, h: sticky}
+  - PRINTSCREEN
   - '*'
   - '4'
   - '5'
@@ -72,8 +72,8 @@ layers:
   - ']'
   - '{'
   - '}'
-  - (
-  - )
+  - ENTER
+  - Caps Word
   - '0'
   - '1'
   - '2'
