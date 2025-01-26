@@ -9,62 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-// Макрос предназначен для использования в слое, поэтому будет необходимо
-// сбросить зажатые модификаторы LCTL, LGUI или LALT, например
-// при отпускании слоя с помощью macro_release &kp LCTRL &kp LGUI &kp LALT
-//
-// Реализация этого дела остаётся за пользователем.
-
-#define PARAM_1 0
-#define PARAM_2 0
-
-#define MACRO_TWO_PARAM(NAME, BINDINGS) MACRO(NAME, "zmk,behavior-macro-two-param", 2, BINDINGS)
-
-#define MODMORPH(NAME, NORMAL, MORPHED, MODS, KEEP_MODS) \
-    NAME: NAME { \
-        compatible = "zmk,behavior-mod-morph"; \
-        #binding-cells = <0>; \
-        bindings = <NORMAL>, <MORPHED>; \
-        mods = <(MODS)>; \
-        keep-mods = <(KEEP_MODS)>; \
-    };
-
-/ {
-    behaviors {
-        MACRO_TWO_PARAM(
-            m_hold_mod_press_key,
-            &macro_press
-                &macro_param_1to1 &kp PARAM_1
-            &macro_tap
-                &macro_param_2to1 &kp PARAM_2
-        )
-
-        MODMORPH(
-            ctrl_tab,
-            &m_hold_mod_press_key LCTRL TAB,
-            &kp TAB,
-            MOD_LCTL,
-            MOD_LCTL
-        )
-
-        MODMORPH(
-            cmd_tab,
-            &m_hold_mod_press_key LGUI TAB,
-            &kp TAB,
-            MOD_LGUI,
-            MOD_LGUI
-        )
-
-        MODMORPH(
-            alt_tab,
-            &m_hold_mod_press_key LALT TAB,
-            &kp TAB,
-            MOD_LALT,
-            MOD_LALT
-        )
-
-    };
-};
 / {
     behaviors {
         backspace_delete: backspace_delete {
