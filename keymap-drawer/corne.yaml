@@ -41,7 +41,7 @@ layers:
   - {t: ↹, h: left}
   - ␣
   - ⏎
-  - {t: _, h: right}
+  - {t: ESCAPE, h: right}
   - BACKSPACE
   left:
   - ESCAPE
@@ -67,7 +67,7 @@ layers:
   - '5'
   - '6'
   - '='
-  - {t: '|', h: sticky}
+  - '|'
   - '['
   - ']'
   - '{'
@@ -79,7 +79,7 @@ layers:
   - '2'
   - '3'
   - KP DOT
-  - {t: \, h: sticky}
+  - \
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}

@@ -319,10 +319,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp GRAVE                   &kp Q  &kp W  &kp E           &kp R      &kp T        &kp Y    &kp U             &kp I          &kp O    &kp P     &tap_hold RIGHT_BRACKET LEFT_BRACKET
-&alt_tab                    &kp A  &kp S  &kp D           &kp F      &kp G        &kp H    &kp J             &kp K          &kp L    &kp SEMI  &kp SQT
-&mt LSHFT LEFT_PARENTHESIS  &kp Z  &kp X  &kp C           &kp V      &kp B        &kp N    &kp M             &kp COMMA      &kp DOT  &kp FSLH  &mt LEFT_SHIFT RIGHT_PARENTHESIS
-                                          &td_ctrl_shift  &lt 1 TAB  &kp SPACE    &kp RET  &lt 2 UNDERSCORE  &kp BACKSPACE
+&kp GRAVE                   &kp Q  &kp W  &kp E           &kp R      &kp T        &kp Y    &kp U         &kp I          &kp O    &kp P     &tap_hold RIGHT_BRACKET LEFT_BRACKET
+&alt_tab                    &kp A  &kp S  &kp D           &kp F      &kp G        &kp H    &kp J         &kp K          &kp L    &kp SEMI  &kp SQT
+&mt LSHFT LEFT_PARENTHESIS  &kp Z  &kp X  &kp C           &kp V      &kp B        &kp N    &kp M         &kp COMMA      &kp DOT  &kp FSLH  &mt LEFT_SHIFT RIGHT_PARENTHESIS
+                                          &td_ctrl_shift  &lt 1 TAB  &kp SPACE    &kp RET  &lt 2 ESCAPE  &kp BACKSPACE
             >;
         };
 
@@ -337,8 +337,8 @@
 
             bindings = <
 &kp ESCAPE        &kp EXCLAMATION    &kp AT_SIGN     &kp HASH         &kp DOLLAR        &kp PERCENT        &kp FSLH      &kp N7                &kp N8            &kp N9  &kp MINUS   &kp PLUS
-&kp DELETE        &sk LEFT_GUI       &sk LEFT_ALT    &sk LEFT_SHIFT   &sk LEFT_CONTROL  &kp PRINTSCREEN    &kp ASTERISK  &kp N4                &kp N5            &kp N6  &kp EQUAL   &sk PIPE
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ENTER         &caps_word         &kp N0        &kp N1                &kp N2            &kp N3  &kp KP_DOT  &sk BACKSLASH
+&kp DELETE        &sk LEFT_GUI       &sk LEFT_ALT    &sk LEFT_SHIFT   &sk LEFT_CONTROL  &kp PRINTSCREEN    &kp ASTERISK  &kp N4                &kp N5            &kp N6  &kp EQUAL   &kp PIPE
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ENTER         &caps_word         &kp N0        &kp N1                &kp N2            &kp N3  &kp KP_DOT  &kp BACKSLASH
                                                      &trans           &none             &trans             &trans        &sk LS(LEFT_CONTROL)  &sk LS(LEFT_ALT)
             >;
         };
