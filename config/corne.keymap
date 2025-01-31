@@ -336,10 +336,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE        &kp EXCLAMATION    &kp AT_SIGN     &kp HASH         &kp DOLLAR        &kp PERCENT        &kp FSLH      &kp N7                &kp N8            &kp N9  &kp MINUS   &kp PLUS
-&kp DELETE        &sk LEFT_GUI       &sk LEFT_ALT    &sk LEFT_SHIFT   &sk LEFT_CONTROL  &kp PRINTSCREEN    &kp ASTERISK  &kp N4                &kp N5            &kp N6  &kp EQUAL   &kp PIPE
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ENTER         &caps_word         &kp N0        &kp N1                &kp N2            &kp N3  &kp KP_DOT  &kp BACKSLASH
-                                                     &trans           &none             &trans             &trans        &sk LS(LEFT_CONTROL)  &sk LS(LEFT_ALT)
+&kp ESCAPE        &kp EXCLAMATION    &kp AT_SIGN     &kp HASH         &kp DOLLAR        &kp PERCENT        &kp FSLH      &kp N7          &kp N8            &kp N9  &kp MINUS   &kp PLUS
+&kp DELETE        &sk LEFT_GUI       &sk LEFT_ALT    &sk LEFT_SHIFT   &sk LEFT_CONTROL  &kp PRINTSCREEN    &kp ASTERISK  &kp N4          &kp N5            &kp N6  &kp EQUAL   &kp PIPE
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ENTER         &caps_word         &kp N0        &kp N1          &kp N2            &kp N3  &kp KP_DOT  &kp BACKSLASH
+                                                     &trans           &none             &trans             &trans        &kp UNDERSCORE  &sk LS(LEFT_ALT)
             >;
         };
 
