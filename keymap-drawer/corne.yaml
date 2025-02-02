@@ -58,7 +58,7 @@ layers:
   - +
   - DELETE
   - ENTER
-  - {t: LEFT SHIFT, h: sticky}
+  - {t: LEFT ALT, h: sticky}
   - UP ARROW
   - {t: LEFT CONTROL, h: sticky}
   - ␣
