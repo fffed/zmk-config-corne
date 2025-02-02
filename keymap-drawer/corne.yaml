@@ -37,17 +37,17 @@ layers:
   - .
   - /
   - {t: ), h: LEFT SHIFT}
+  - {t: ↹, h: LEFT ALT}
   - '&td_ctrl_shift'
-  - {t: ↹, h: left}
-  - ␣
-  - ⏎
+  - {t: ␣, h: left}
+  - {t: ESCAPE, h: right}
   - {t: ESCAPE, h: right}
   - BACKSPACE
   left:
   - ESCAPE
   - '!'
   - '@'
-  - '#'
+  - UP ARROW
   - $
   - '%'
   - /
@@ -58,9 +58,9 @@ layers:
   - +
   - DELETE
   - {t: LEFT GUI, h: sticky}
-  - {t: LEFT ALT, h: sticky}
-  - {t: LEFT SHIFT, h: sticky}
-  - {t: LEFT CONTROL, h: sticky}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - PRINTSCREEN
   - '*'
   - '4'
@@ -71,7 +71,7 @@ layers:
   - '['
   - ']'
   - '{'
-  - '}'
+  - '#'
   - ENTER
   - Caps Word
   - '0'
@@ -81,10 +81,10 @@ layers:
   - KP DOT
   - \
   - {t: ▽, type: trans}
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Sft+LEFT CONTROL, h: sticky}
+  - _
   - {t: Sft+LEFT ALT, h: sticky}
   right:
   - F1
@@ -95,7 +95,7 @@ layers:
   - F6
   - F7
   - F8
-  - F9
+  - UP ARROW
   - F10
   - F11
   - F12
@@ -105,11 +105,11 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - {t: '$$mdi:apple-keyboard-control$$', h: sticky}
   - PRINTSCREEN
-  - ←
-  - ↓
-  - ↑
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
   - →
-  - {t: ▽, type: trans}
+  - F9
   - {t: ▽, type: trans}
   - '&studio_unlock'
   - {t: ▽, type: trans}
@@ -123,11 +123,11 @@ layers:
   - End
   - {t: ▽, type: trans}
   - POWER
+  - ↹
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
-  - {type: held}
+  - {t: BT CLR, type: held}
+  - ''
   - BT CLR ALL
   symb:
   - {t: ▽, type: trans}
@@ -219,3 +219,5 @@ combos:
   k: LEFT GUI
 - p: [24, 35]
   k: Gui+␣
+- p: [15, 14]
+  k: ENTER
