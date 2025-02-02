@@ -153,6 +153,14 @@
             tapping-term-ms = <280>;
             bindings = <&sk LEFT_CONTROL>, <&sk LS(LEFT_CONTROL)>;
         };
+
+        td_alt_shift: tap_dance_st_alt_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_ST_ALT_SHIFT";
+            #binding-cells = <0>;
+            tapping-term-ms = <280>;
+            bindings = <&sk LEFT_ALT>, <&sk LS(LEFT_ALT)>;
+        };
     };
 
     combos {
@@ -327,7 +335,7 @@
 &kp GRAVE                   &kp Q  &kp W  &kp E                   &kp R           &kp T          &kp Y         &kp U         &kp I          &kp O    &kp P     &tap_hold RIGHT_BRACKET LEFT_BRACKET
 &alt_tab                    &kp A  &kp S  &kp D                   &kp F           &kp G          &kp H         &kp J         &kp K          &kp L    &kp SEMI  &kp SQT
 &mt LSHFT LEFT_PARENTHESIS  &kp Z  &kp X  &kp C                   &kp V           &kp B          &kp N         &kp M         &kp COMMA      &kp DOT  &kp FSLH  &mt LEFT_SHIFT RIGHT_PARENTHESIS
-                                          &tap_hold LEFT_ALT TAB  &td_ctrl_shift  &lt 1 SPACE    &lt 2 ESCAPE  &lt 2 ESCAPE  &kp BACKSPACE
+                                          &tap_hold LEFT_WIN TAB  &td_ctrl_shift  &lt 1 SPACE    &lt 2 ESCAPE  &lt 2 ESCAPE  &kp BACKSPACE
             >;
         };
 
