@@ -37,17 +37,17 @@ layers:
   - .
   - /
   - {t: ), h: LEFT SHIFT}
-  - {t: ↹, h: LEFT WIN}
+  - ↹
   - '&td_ctrl_shift'
   - {t: ␣, h: left}
   - {t: ESCAPE, h: right}
-  - {t: ESCAPE, h: right}
+  - '&td_alt_shift'
   - BACKSPACE
   left:
   - ESCAPE
   - '!'
   - '@'
-  - UP ARROW
+  - '#'
   - $
   - '%'
   - /
@@ -57,35 +57,35 @@ layers:
   - '-'
   - +
   - DELETE
-  - {t: LEFT GUI, h: sticky}
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - PRINTSCREEN
+  - ENTER
+  - {t: LEFT SHIFT, h: sticky}
+  - UP ARROW
+  - {t: LEFT CONTROL, h: sticky}
+  - ␣
   - '*'
   - '4'
   - '5'
   - '6'
   - '='
   - '|'
-  - '['
-  - ']'
-  - '{'
-  - '#'
-  - ENTER
-  - Caps Word
+  - Sft+DELETE
+  - _
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - PRINTSCREEN
   - '0'
   - '1'
   - '2'
   - '3'
   - KP DOT
   - \
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - {type: held}
+  - {t: LEFT GUI, h: sticky}
   - {t: ▽, type: trans}
-  - _
-  - {t: Sft+LEFT ALT, h: sticky}
+  - '&td_ctrl_shift'
   right:
   - F1
   - F2
@@ -96,7 +96,7 @@ layers:
   - F7
   - F8
   - UP ARROW
-  - F10
+  - F9
   - F11
   - F12
   - {t: LEFT ALT, h: toggle}
@@ -104,12 +104,12 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: sticky}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - {t: '$$mdi:apple-keyboard-control$$', h: sticky}
-  - PRINTSCREEN
+  - Caps Word
   - ''
   - LEFT ARROW
   - DOWN ARROW
   - →
-  - F9
+  - F10
   - {t: ▽, type: trans}
   - '&studio_unlock'
   - {t: ▽, type: trans}
@@ -187,7 +187,7 @@ combos:
 - p: [8, 9]
   k: End
 - p: [9, 10]
-  k: BACKSPACE
+  k: _
 - p: [1, 2]
   k: DELETE
 - p: [19, 20]
