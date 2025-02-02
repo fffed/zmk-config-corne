@@ -8,7 +8,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 
 / {
     behaviors {
@@ -269,6 +268,16 @@
             bindings = <&kp ENTER>;
             key-positions = <15 14>;
         };
+
+        combo_page_up {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <2 3>;
+        };
+
+        combo_page_down {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <26 27>;
+        };
     };
 
     macros {
@@ -366,10 +375,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1          &kp F2    &kp F3    &kp F4        &kp F5        &kp F6          &kp F7      &kp F8          &kp UP_ARROW    &kp F9     &kp F11  &kp F12
-&kt LEFT_ALT    &sk LGUI  &sk LALT  &sk LSHFT     &sk LCTRL     &caps_word      &none       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp F10  &trans
-&studio_unlock  &trans    &trans    &bt BT_SEL 3  &bt BT_SEL 1  &bt BT_SEL 0    &kp HOME    &kp PAGE_DOWN   &kp PAGE_UP     &kp END    &trans   &kp K_POWER
-                                    &kp TAB       &trans        &trans          &bt BT_CLR  &none           &bt BT_CLR_ALL
+&kp F1          &kp F2    &kp F3    &kp F4        &kp F5        &kp F6          &kp F7  &kp F8          &kp UP_ARROW    &kp F9     &kp F11     &kp F12
+&trans          &sk LGUI  &sk LALT  &sk LSHFT     &sk LCTRL     &caps_word      &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp F10     &trans
+&studio_unlock  &trans    &trans    &bt BT_SEL 3  &bt BT_SEL 1  &bt BT_SEL 0    &trans  &trans          &trans          &trans     &kp LA(F4)  &kp K_POWER
+                                    &kp TAB       &trans        &trans          &none   &bt BT_CLR      &bt BT_CLR_ALL
             >;
         };
 

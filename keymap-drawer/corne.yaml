@@ -99,7 +99,7 @@ layers:
   - F9
   - F11
   - F12
-  - {t: LEFT ALT, h: toggle}
+  - {t: ▽, type: trans}
   - {t: '$$mdi:apple-keyboard-command$$', h: sticky}
   - {t: '$$mdi:apple-keyboard-option$$', h: sticky}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
@@ -117,17 +117,17 @@ layers:
   - BT 4
   - BT 2
   - BT 1
-  - Home
-  - PAGE DOWN
-  - PAGE UP
-  - End
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Win Close
   - POWER
   - ↹
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT CLR, type: held}
-  - ''
+  - {type: held}
+  - BT CLR
   - BT CLR ALL
   symb:
   - {t: ▽, type: trans}
@@ -221,3 +221,7 @@ combos:
   k: Gui+␣
 - p: [15, 14]
   k: ENTER
+- p: [2, 3]
+  k: PAGE UP
+- p: [26, 27]
+  k: PAGE DOWN
