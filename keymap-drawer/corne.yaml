@@ -37,11 +37,11 @@ layers:
   - .
   - /
   - {t: ), h: LEFT SHIFT}
-  - ↹
   - '&td_ctrl_shift'
-  - {t: ␣, h: left}
-  - {t: ENTER, h: right}
-  - '&td_alt_shift'
+  - left
+  - ␣
+  - ENTER
+  - right
   - BACKSPACE
   left:
   - ESCAPE
@@ -57,11 +57,11 @@ layers:
   - '-'
   - +
   - DELETE
-  - ENTER
+  - {t: LEFT GUI, h: sticky}
   - {t: LEFT ALT, h: sticky}
   - UP ARROW
   - {t: LEFT CONTROL, h: sticky}
-  - ␣
+  - ENTER
   - '*'
   - '4'
   - '5'
@@ -81,11 +81,11 @@ layers:
   - KP DOT
   - \
   - ''
-  - ''
   - {type: held}
-  - {t: LEFT GUI, h: sticky}
+  - ''
   - {t: ▽, type: trans}
-  - '&td_ctrl_shift'
+  - '&td_alt_shift'
+  - {t: ▽, type: trans}
   right:
   - F1
   - F2
@@ -99,12 +99,12 @@ layers:
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
+  - Caps Word
   - {t: '$$mdi:apple-keyboard-command$$', h: sticky}
   - {t: '$$mdi:apple-keyboard-option$$', h: sticky}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - {t: '$$mdi:apple-keyboard-control$$', h: sticky}
-  - Caps Word
+  - {t: ▽, type: trans}
   - ←
   - ↓
   - ↑
@@ -126,8 +126,8 @@ layers:
   - ↹
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   symb:
   - {t: ▽, type: trans}
@@ -220,7 +220,8 @@ combos:
 - p: [12, 23]
   k: Gui+␣
 - p: [15, 14]
-  k: ENTER
+  k: ↹
+  draw_separate: true
 - p: [2, 3]
   k: PAGE UP
 - p: [26, 27]
