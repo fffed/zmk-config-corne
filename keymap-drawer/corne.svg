@@ -395,7 +395,7 @@ rect.held, rect.combo.held {
 </a></g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">ESCAPE</text>
+<text x="0" y="0" class="key tap">ENTER</text>
 <a href="#right">
 <text x="0" y="38" class="key hold layer-activator">right</text>
 </a></g>
