@@ -95,8 +95,8 @@ layers:
   - F6
   - F7
   - F8
-  - UP ARROW
   - F9
+  - F10
   - F11
   - F12
   - {t: ▽, type: trans}
@@ -105,11 +105,11 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - {t: '$$mdi:apple-keyboard-control$$', h: sticky}
   - Caps Word
-  - ''
-  - LEFT ARROW
-  - DOWN ARROW
+  - ←
+  - ↓
+  - ↑
   - →
-  - F10
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&studio_unlock'
   - {t: ▽, type: trans}
