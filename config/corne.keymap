@@ -256,12 +256,12 @@
 
         combo_gui {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <12 23>;
+            key-positions = <24 35>;
         };
 
         combo_swap_lng {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <24 35>;
+            key-positions = <12 23>;
         };
 
         combo_enter_left {
