@@ -84,8 +84,8 @@ layers:
   - {type: held}
   - ''
   - {t: ▽, type: trans}
-  - '&td_alt_shift'
   - {t: ▽, type: trans}
+  - {t: Sft+LEFT CONTROL, h: sticky}
   right:
   - F1
   - F2
