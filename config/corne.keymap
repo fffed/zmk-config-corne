@@ -213,42 +213,6 @@
             key-positions = <20 21>;
         };
 
-        combo_left_paren {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <16 17>;
-            layers = <0>;
-        };
-
-        combo_right_paren {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <18 19>;
-            layers = <0>;
-        };
-
-        combo_left_brack {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <4 5>;
-            layers = <0>;
-        };
-
-        combo_right_brack {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <6 7>;
-            layers = <0>;
-        };
-
-        combo_left_crl_b {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <28 29>;
-            layers = <0>;
-        };
-
-        combo_right_crl_b {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <30 31>;
-            layers = <0>;
-        };
-
         combo_repeat {
             bindings = <&key_repeat>;
             key-positions = <15 16>;
@@ -275,7 +239,7 @@
             layers = <0>;
         };
 
-        combo_gui {
+        combo_gui_oneside {
             bindings = <&kp LEFT_GUI>;
             key-positions = <12 13>;
         };
@@ -283,6 +247,11 @@
         combo_alt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <24 25>;
+        };
+
+        combo_gui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <12 23>;
         };
     };
 
@@ -367,7 +336,7 @@
 &kp ESCAPE      &kp HOME      &kp PAGE_UP   &kp PAGE_DOWN   &kp END           &trans             &kp N6         &kp N7    &kp N8  &kp N9     &kp MINUS  &kp PLUS
 &kp DELETE      &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp ENTER          &kp LEFT       &kp DOWN  &kp UP  &kp RIGHT  &kp N0     &kp STAR
 &kp LS(DELETE)  &kp LEFT      &kp UP        &kp DOWN        &kp RIGHT_ARROW   &kp PRINTSCREEN    &kp N1         &kp N2    &kp N3  &kp N4     &kp N5     &kp FSLH
-                                            &none           &none             &none              &kp LG(SPACE)  &mo 3     &trans
+                                            &none           &none             &none              &kp LG(SPACE)  &trans    &trans
             >;
         };
 

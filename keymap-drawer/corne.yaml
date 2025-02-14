@@ -84,7 +84,7 @@ layers:
   - {type: held}
   - ''
   - Gui+␣
-  - blt
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   right:
   - F1
@@ -195,24 +195,6 @@ combos:
   draw_separate: true
 - p: [20, 21]
   k: ␣
-- p: [16, 17]
-  k: (
-  l: [base]
-- p: [18, 19]
-  k: )
-  l: [base]
-- p: [4, 5]
-  k: '['
-  l: [base]
-- p: [6, 7]
-  k: ']'
-  l: [base]
-- p: [28, 29]
-  k: '{'
-  l: [base]
-- p: [30, 31]
-  k: '}'
-  l: [base]
 - p: [15, 16]
   k: '&key_repeat'
 - p: [15, 14]
@@ -229,3 +211,5 @@ combos:
   k: LEFT GUI
 - p: [24, 25]
   k: LEFT ALT
+- p: [12, 23]
+  k: LEFT GUI
