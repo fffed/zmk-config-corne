@@ -100,11 +100,11 @@ layers:
   - F11
   - F12
   - Caps Word
-  - {t: '$$mdi:apple-keyboard-command$$', h: sticky}
-  - {t: '$$mdi:apple-keyboard-option$$', h: sticky}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - {t: '$$mdi:apple-keyboard-control$$', h: sticky}
-  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - ←
   - ↓
   - ↑
@@ -114,9 +114,9 @@ layers:
   - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '*'
+  - AMPERSAND
+  - ^
   - {t: ▽, type: trans}
   - PAGE DOWN
   - PAGE UP
@@ -128,49 +128,6 @@ layers:
   - Gui+␣
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  symb:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - /
-  - AMPERSAND
-  - '*'
-  - _
-  - '-'
-  - +
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '*'
-  - $
-  - '%'
-  - ^
-  - '='
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - KP DOT
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+␣
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   blt:
   - {t: ▽, type: trans}
