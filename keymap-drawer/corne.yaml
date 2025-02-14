@@ -258,8 +258,6 @@ combos:
   l: [base]
 - p: [15, 16]
   k: '&key_repeat'
-- p: [24, 35]
-  k: LEFT GUI
 - p: [12, 23]
   k: Gui+␣
 - p: [15, 14]
@@ -271,3 +269,8 @@ combos:
   k: PAGE DOWN
 - p: [1, 2]
   k: '!'
+  l: [base]
+- p: [12, 13]
+  k: LEFT GUI
+- p: [24, 25]
+  k: LEFT ALT
