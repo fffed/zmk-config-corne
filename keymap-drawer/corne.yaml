@@ -59,7 +59,7 @@ layers:
   - DELETE
   - {t: LEFT GUI, h: sticky}
   - {t: LEFT ALT, h: sticky}
-  - UP ARROW
+  - {t: LEFT SHIFT, h: sticky}
   - {t: LEFT CONTROL, h: sticky}
   - ENTER
   - '*'
@@ -69,9 +69,9 @@ layers:
   - '='
   - '|'
   - Sft+DELETE
-  - _
-  - LEFT ARROW
-  - DOWN ARROW
+  - ←
+  - ↑
+  - ↓
   - RIGHT ARROW
   - PRINTSCREEN
   - '0'
@@ -84,7 +84,7 @@ layers:
   - {type: held}
   - ''
   - {t: ▽, type: trans}
-  - {t: LEFT SHIFT, h: sticky}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   right:
   - F1
@@ -114,9 +114,9 @@ layers:
   - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT 4
-  - BT 2
-  - BT 1
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PAGE DOWN
   - PAGE UP
@@ -124,11 +124,11 @@ layers:
   - Win Close
   - POWER
   - ↹
+  - blt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR ALL
   - {type: held}
-  - BT CLR
+  - {t: ▽, type: trans}
   symb:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,6 +172,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  blt:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT 1
+  - BT 2
+  - BT 4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [34, 33]
   k: AMPERSAND
@@ -188,13 +231,13 @@ combos:
   k: End
 - p: [9, 10]
   k: _
-- p: [1, 2]
+- p: [1, 0]
   k: DELETE
 - p: [19, 20]
   k: ESCAPE
   draw_separate: true
 - p: [20, 21]
-  k: ENTER
+  k: ␣
 - p: [16, 17]
   k: (
   l: [base]
@@ -226,3 +269,5 @@ combos:
   k: PAGE UP
 - p: [26, 27]
   k: PAGE DOWN
+- p: [1, 2]
+  k: '!'

@@ -200,7 +200,7 @@
 
         combo_delete {
             bindings = <&kp DELETE>;
-            key-positions = <1 2>;
+            key-positions = <1 0>;
         };
 
         combo_esc {
@@ -208,8 +208,8 @@
             key-positions = <19 20>;
         };
 
-        combo_enter {
-            bindings = <&kp ENTER>;
+        combo_space {
+            bindings = <&kp SPACE>;
             key-positions = <20 21>;
         };
 
@@ -277,6 +277,11 @@
         combo_page_down {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <26 27>;
+        };
+
+        combo_exclm {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <1 2>;
         };
     };
 
@@ -358,10 +363,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE      &kp EXCLAMATION  &kp AT_SIGN     &kp HASH        &kp DOLLAR        &kp PERCENT        &kp FSLH      &kp N7          &kp N8  &kp N9  &kp MINUS   &kp PLUS
-&kp DELETE      &sk LEFT_GUI     &sk LEFT_ALT    &kp UP_ARROW    &sk LEFT_CONTROL  &kp ENTER          &kp ASTERISK  &kp N4          &kp N5  &kp N6  &kp EQUAL   &kp PIPE
-&kp LS(DELETE)  &kp UNDERSCORE   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp PRINTSCREEN    &kp N0        &kp N1          &kp N2  &kp N3  &kp KP_DOT  &kp BACKSLASH
-                                                 &none           &none             &none              &trans        &sk LEFT_SHIFT  &trans
+&kp ESCAPE      &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp DOLLAR        &kp PERCENT        &kp FSLH      &kp N7  &kp N8  &kp N9  &kp MINUS   &kp PLUS
+&kp DELETE      &sk LEFT_GUI     &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp ENTER          &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp EQUAL   &kp PIPE
+&kp LS(DELETE)  &kp LEFT         &kp UP        &kp DOWN        &kp RIGHT_ARROW   &kp PRINTSCREEN    &kp N0        &kp N1  &kp N2  &kp N3  &kp KP_DOT  &kp BACKSLASH
+                                               &none           &none             &none              &trans        &trans  &trans
             >;
         };
 
@@ -375,10 +380,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1          &kp F2    &kp F3    &kp F4        &kp F5        &kp F6          &kp F7          &kp F8         &kp F9       &kp F10    &kp F11     &kp F12
-&caps_word      &sk LGUI  &sk LALT  &sk LSHFT     &sk LCTRL     &trans          &kp LEFT        &kp DOWN       &kp UP       &kp RIGHT  &trans      &trans
-&studio_unlock  &trans    &trans    &bt BT_SEL 3  &bt BT_SEL 1  &bt BT_SEL 0    &trans          &kp PAGE_DOWN  &kp PAGE_UP  &trans     &kp LA(F4)  &kp K_POWER
-                                    &kp TAB       &trans        &trans          &bt BT_CLR_ALL  &none          &bt BT_CLR
+&kp F1          &kp F2    &kp F3    &kp F4     &kp F5     &kp F6    &kp F7    &kp F8         &kp F9       &kp F10    &kp F11     &kp F12
+&caps_word      &sk LGUI  &sk LALT  &sk LSHFT  &sk LCTRL  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans      &trans
+&studio_unlock  &trans    &trans    &trans     &trans     &trans    &trans    &kp PAGE_DOWN  &kp PAGE_UP  &trans     &kp LA(F4)  &kp K_POWER
+                                    &kp TAB    &mo 4      &trans    &trans    &none          &trans
             >;
         };
 
@@ -391,6 +396,17 @@
             >;
 
             label = "symb";
+        };
+
+        bluetooth {
+            bindings = <
+&trans  &trans      &trans          &trans  &trans  &trans    &trans  &trans        &trans        &trans        &trans  &trans
+&trans  &trans      &trans          &trans  &trans  &trans    &trans  &trans        &trans        &trans        &trans  &trans
+&trans  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &trans  &trans
+                                    &trans  &trans  &trans    &trans  &trans        &trans
+            >;
+
+            label = "blt";
         };
     };
 };
