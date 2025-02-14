@@ -45,11 +45,11 @@ layers:
   - BACKSPACE
   left:
   - ESCAPE
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - Home
+  - PAGE UP
+  - PAGE DOWN
+  - End
+  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
