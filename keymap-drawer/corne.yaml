@@ -50,11 +50,11 @@ layers:
   - '#'
   - $
   - '%'
-  - '5'
   - '6'
   - '7'
   - '8'
   - '9'
+  - '-'
   - +
   - DELETE
   - {t: LEFT GUI, h: sticky}
@@ -66,7 +66,7 @@ layers:
   - ↓
   - ↑
   - →
-  - '*'
+  - '0'
   - '|'
   - Sft+DELETE
   - ←
@@ -74,11 +74,11 @@ layers:
   - ↓
   - RIGHT ARROW
   - PRINTSCREEN
-  - '0'
   - '1'
   - '2'
   - '3'
   - '4'
+  - '5'
   - \
   - ''
   - {type: held}
