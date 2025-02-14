@@ -258,8 +258,6 @@ combos:
   l: [base]
 - p: [15, 16]
   k: '&key_repeat'
-- p: [12, 23]
-  k: Gui+␣
 - p: [15, 14]
   k: ↹
   draw_separate: true
