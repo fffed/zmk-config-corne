@@ -67,7 +67,7 @@ layers:
   - ↑
   - →
   - '0'
-  - '|'
+  - '*'
   - Sft+DELETE
   - ←
   - ↑
@@ -79,7 +79,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - \
+  - /
   - ''
   - {type: held}
   - ''
@@ -112,8 +112,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - \
+  - '|'
   - '*'
   - AMPERSAND
   - ^
