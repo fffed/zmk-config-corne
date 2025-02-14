@@ -38,10 +38,10 @@ layers:
   - /
   - {t: ), h: LEFT SHIFT}
   - '&td_ctrl_shift'
-  - left
+  - {t: '-', h: left}
   - ␣
   - ENTER
-  - right
+  - {t: '=', h: right}
   - BACKSPACE
   left:
   - ESCAPE
@@ -83,8 +83,8 @@ layers:
   - ''
   - {type: held}
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+␣
+  - blt
   - {t: ▽, type: trans}
   right:
   - F1
@@ -125,7 +125,7 @@ layers:
   - POWER
   - ↹
   - blt
-  - {t: ▽, type: trans}
+  - Gui+␣
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
