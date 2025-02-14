@@ -50,11 +50,11 @@ layers:
   - '#'
   - $
   - '%'
-  - /
-  - '7'
-  - '8'
-  - '9'
-  - '-'
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
   - +
   - DELETE
   - {t: LEFT GUI, h: sticky}
@@ -62,11 +62,11 @@ layers:
   - {t: LEFT SHIFT, h: sticky}
   - {t: LEFT CONTROL, h: sticky}
   - ENTER
+  - ←
+  - ↓
+  - ↑
+  - →
   - '*'
-  - '4'
-  - '5'
-  - '6'
-  - '='
   - '|'
   - Sft+DELETE
   - ←
@@ -74,11 +74,11 @@ layers:
   - ↓
   - RIGHT ARROW
   - PRINTSCREEN
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - KP DOT
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
   - \
   - ''
   - {type: held}
