@@ -38,10 +38,10 @@ layers:
   - /
   - {t: ), h: LEFT SHIFT}
   - '&td_ctrl_shift'
-  - {t: '-', h: left}
+  - {t: _, h: left}
   - ␣
   - ENTER
-  - {t: '=', h: right}
+  - {t: '-', h: right}
   - BACKSPACE
   left:
   - ESCAPE
