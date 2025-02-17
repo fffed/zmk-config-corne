@@ -84,7 +84,7 @@ layers:
   - {type: held}
   - ''
   - Gui+␣
-  - {t: ▽, type: trans}
+  - '='
   - {t: ▽, type: trans}
   right:
   - F1
