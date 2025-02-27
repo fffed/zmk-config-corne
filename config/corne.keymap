@@ -160,6 +160,16 @@
             tapping-term-ms = <280>;
             bindings = <&sk LEFT_ALT>, <&sk LS(LEFT_ALT)>;
         };
+
+        st_p_h: sticky_press_hold {
+            compatible = "zmk,behavior-hold-tap";
+            label = "STICKY_PRESS_HOLD";
+            bindings = <&kp>, <&sk>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+        };
     };
 
     combos {
