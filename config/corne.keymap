@@ -161,9 +161,9 @@
             bindings = <&sk LEFT_ALT>, <&sk LS(LEFT_ALT)>;
         };
 
-        st_p_h: sticky_press_hold {
+        st_t_h: sticky_tap_hold {
             compatible = "zmk,behavior-hold-tap";
-            label = "STICKY_PRESS_HOLD";
+            label = "STICKY_TAP_HOLD";
             bindings = <&kp>, <&sk>;
 
             #binding-cells = <2>;
