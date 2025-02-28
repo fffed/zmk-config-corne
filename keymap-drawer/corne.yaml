@@ -37,11 +37,11 @@ layers:
   - .
   - /
   - {t: ), h: LEFT SHIFT}
-  - {t: ↹, h: Sft+LEFT CONTROL}
-  - {t: _, h: left}
-  - {t: ␣, h: LEFT CONTROL}
+  - '&td_ctrl_shift'
+  - {t: ↹, h: left}
+  - ␣
   - ENTER
-  - {t: '-', h: right}
+  - {t: ESCAPE, h: right}
   - BACKSPACE
   left:
   - ESCAPE
