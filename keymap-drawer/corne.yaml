@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
   base:
   - '`'
@@ -38,10 +38,10 @@ layers:
   - /
   - {t: ), h: LEFT SHIFT}
   - '&td_ctrl_shift'
-  - {t: ↹, h: left}
+  - {t: '{', h: left}
   - ␣
   - ENTER
-  - {t: ESCAPE, h: right}
+  - {t: '}', h: right}
   - BACKSPACE
   left:
   - ESCAPE
