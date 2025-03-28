@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - {t: ), h: LEFT SHIFT}
-  - '&td_ctrl_shift'
+  - {t: LEFT CONTROL, h: sticky}
   - {t: '{', h: left}
   - ␣
   - ENTER
@@ -188,8 +188,6 @@ combos:
   k: End
 - p: [9, 10]
   k: _
-- p: [1, 0]
-  k: DELETE
 - p: [19, 20]
   k: ESCAPE
   draw_separate: true
@@ -213,3 +211,5 @@ combos:
   k: LEFT ALT
 - p: [12, 23]
   k: LEFT GUI
+- p: [37, 36]
+  k: {t: Sft+LEFT CONTROL, h: sticky}
