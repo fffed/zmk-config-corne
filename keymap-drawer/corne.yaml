@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - {t: ), h: LEFT SHIFT}
-  - {t: LEFT CONTROL, h: sticky}
+  - {t: ↹, h: LEFT CONTROL}
   - {t: '{', h: left}
   - ␣
   - ENTER
