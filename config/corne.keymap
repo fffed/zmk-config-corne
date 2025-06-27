@@ -211,6 +211,7 @@
         combo_esc {
             bindings = <&kp ESCAPE>;
             key-positions = <19 20>;
+            timeout-ms = <40>;
         };
 
         combo_space {
@@ -226,6 +227,7 @@
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <15 14>;
+            timeout-ms = <40>;
         };
 
         combo_page_up {
